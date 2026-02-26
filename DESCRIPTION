@@ -1,13 +1,13 @@
-Package: slides
-Title: What the Package Does (One Line, Title Case)
+Package: slideHazard
+Title: Indice de peligrosidad de deslizamiento
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Juan", "Fernandez", , "826110@unizar.es", role = c("aut", "cre"))
+Description: Funcion sencilla  y genérica para calcular un indice básico de peligrosidad de deslizamiento. Se basa en dos parámetros como son la pendiente y la proximidad a fallas
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Imports: 
-    terra
+    terra,
+    sf
